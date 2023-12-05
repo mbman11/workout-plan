@@ -5,7 +5,7 @@ require('dotenv').config();
 const app = express();
 
 app.get('/', (req,res)=>{
-  res.json('GET all workouts')
+  res.json({mssg: "Welcome"})
 })
 
 app.listen(process.env.PORT, () => {
