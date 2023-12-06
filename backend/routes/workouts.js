@@ -5,7 +5,7 @@ const {
   getWorkouts
 } = require('../controllers/workoutController.js')
 
-const Workout = require('../models/workoutModel.js')
+const Workout = require('../models/workoutModel')
 const router = express.Router()
 
 
