@@ -9,6 +9,8 @@ const Workout = require('../models/workoutModel')
 const router = express.Router()
 
 
+// routes below
+
 router.get("/", getWorkouts)
 
 router.get("/:id", getWorkout)
